@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    background-color: #e9ecf2;
+}
+
+::selection {
+  background: #f1d1b3;
+  color: #232324;
+}
+header {
+    height: 83px;
+    width: 1278px;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px 0 35px;
+    align-items: center;
+}
+
+.logoo img {
+    width: 201px;
+}
+
+.links a {
+    color: #47494f;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 18px;
+    font-weight: 600;
+}
+
+.links a:hover {
+    color: #ff7300;
+}
+
+#free {
+    color: #ff7300;
+}
+
+.links button {
+    width: 144px;
+    height: 46px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #34a8ca;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    font-size: 14px;
+    color: #34a8ca;
+    font-weight: bold;
+}
+
+.links i {
+    position: relative;
+    font-size: 16px;
+    right: 7px;
+}
+
+hr {
+    height: 1px;
+    background-color: #d8d8d8;
+    border: none;
+}
+
+.skills {
+    height: 37px;
+    width: 1296px;
+    background-color: #f5f7fa;
+    display: flex;
+    padding: 0px 35px 0 0;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.skills a {
+    color: #47494f;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 32px;
+    font-weight: 400;
+    display: block;
+}
+
+.skills .hoverline1 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline1:hover::after {
+    content: "";
+    position: absolute;
+    left: 16%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline2 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline2:hover::after {
+    content: "";
+    position: absolute;
+    left: 22%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline3 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline3:hover::after {
+    content: "";
+    position: absolute;
+    left: 45%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline4 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline4:hover::after {
+    content: "";
+    position: absolute;
+    left: 24%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline5 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline5:hover::after {
+    content: "";
+    position: absolute;
+    left: 23%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline6 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline6:hover::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline7 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline7:hover::after {
+    content: "";
+    position: absolute;
+    left: 24%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline8 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline8:hover::after {
+    content: "";
+    position: absolute;
+    left: 16%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.skills .hoverline9 {
+    position: relative;
+    text-decoration: none;
+}
+
+.skills .hoverline9:hover::after {
+    content: "";
+    position: absolute;
+    left: 27%;
+    right: 0%;
+    top: 25px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+h3 {
+    margin-left: 33px;
+    font-weight: 600;
+    font-size: 29px;
+    margin-top: 20px;
+    color: black;
+}
+
+::placeholder {
+    font-style: italic;
+
+
+}
+
+input {
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 20px;
+    height: 59px;
+    outline: none;
+    width: 882px;
+    box-shadow: -3px 4px 21px -15px black;
+}
+
+.in {
+    position: absolute;
+    top: 35%;
+    font-weight: 600;
+    right: 32%;
+    font-size: 14px;
+}
+
+.spanone {
+    height: 59px;
+    background-color: #ffffff;
+    width: 169px;
+    border: none;
+    box-shadow: -3px 4px 21px -15px black;
+    border-left: 1px solid #d5d3d3;
+    margin-left: -7px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ff7300;
+
+}
+
+.spanone:hover {
+    color: #47494f;
+    cursor: pointer;
+}
+
+.fa-solid,
+.fa-sharp {
+    margin-right: 5px;
+}
+
+.arrow {
+    height: 59px;
+    width: 54px;
+    border: none;
+    box-shadow: -3px 4px 21px -15px black;
+    border-left: 1px solid #d5d3d3;
+    margin-left: -7px;
+    font-size: 35px;
+    position: relative;
+    top: 8px;
+    font-weight: 800;
+    background-color: #ff7300;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.arrow:hover {
+    background-color: white;
+    color: #ff7300;
+}
+
+.filters {
+    height: 59px;
+    width: 1283px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    border: 0.01em solid #d0d2d5;
+    background-color: #f5f7fa;
+}
+.text {
+    margin-left: 16px;
+    height: 59px;
+    display: flex;
+    width: 86px;
+    align-items: center;
+    border-right: 0.01em solid #cdc8c8;
+}
+.text h4 {
+    font-size: 15px;
+    color: #707276;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: 900;
+    height: 59px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-2 {
+    position: relative;
+    display: inline-block;
+    border-right: 0.01em solid #cdc8c8;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  /* Dropdown Button */
+.dropbtn2 {
+    color: rgb(112 114 118);
+    padding: 16px;
+    width: 125px;
+    font-size: 15px;
+    font-weight: 00;
+    
+    height: 59px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-right: 0.01em solid #404957 ;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  .project {
+    width: 1284px;
+    height: 141px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #fff2e9;
+  }
+  .another-pro {
+    width: 1284px;
+    height: 47px;
+    margin-left: 13px;
+    display: flex;
+  }
+
+  .project2 {
+    width: 1284px;
+    height: 141px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #fff2e9;
+    border-top: 0.01em solid #dddee1;
+    display: flex;
+  }
+
+  .project23 {
+    width: 1284px;
+    height: 141px;
+    margin-left: 30px;
+     background-color: rgb(245, 247, 250);
+    border-top: 0.01em solid #dddee1;
+    display: flex;
+  }
+
+  .project23:hover {
+    background-color:rgb(240, 245, 253);;
+  }
+  .oop {
+    margin-top: 20px;
+  }
+
+  .project:hover {
+    background-color: white;
+  }
+  .project2:hover {
+    background-color: white;
+  }
+
+  .project h4 {
+    position: relative;
+    top: 20px;
+    color: #3d66d7;
+    font-weight: 600;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  .another-pro h4 {
+    position: relative;
+    top: 20px;
+    color: #3d66d7;
+    font-weight: 600;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  .thigs {
+    position: relative;
+    top: 20px;
+    display: flex ;
+    height: 27px;
+    align-items: center;
+    left: 26px;
+}
+  
+
+.thigs h6 {
+    font: 12px;
+    margin-left: 5px;
+    border-radius: 3px;
+    padding-left: 9px;
+}
+
+.ff1 {
+    width: 56px;
+    background-color: #4774b7;
+    color: white;
+    padding: 3px 7px 2px 28px;
+}
+
+.ff2 {
+    width: 77px;
+    background-color: #ffdb38;
+    color: rgb(0, 0, 0);
+    padding: 3px 7px 2px 28px;
+}
+.ff3 {
+    width: 46px;
+    background-color: #ff7300;
+    color: white;
+    padding: 3px 7px 2px 28px;
+}
+.details {
+    display: flex;
+    align-items: center;
+}
+.details, .us {
+    margin-left: 18px;
+    font-size: 14px;
+    margin-top: 3px;
+    color: #98999c;
+    font-weight: 500;
+}
+.details span {
+    color: black;
+}
+
+.i {
+    margin-left: 14px;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #98999c;
+    font-weight: 500;
+}
+.me {
+    margin-left: 14px;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #98999c;
+    font-weight: 500;
+}
+
+.we {
+    margin-left: 14px;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #98999c;
+    font-weight: 500;
+}
+
+.anotherflexbox {
+    width: 50%;
+    height: 100%;
+}
+
+.anotherflexbox2 {
+    width: 50%;
+    display: flex;
+    height: 100%;
+    align-items: end;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.anotherflexbox2 h5{
+    position: relative;
+    top: 8px;
+    color: #3d66d7;
+    font-weight: 900;
+    right: 30px;
+    font-size: 27px;
+}
+
+.anotherflexbox2 p {
+    font-size: 11px;
+    color: #98999c;
+    margin-right: 27px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.anotherflexbox2 button {
+    margin-right: 26px;
+    width: 209px;
+    height: 33px;
+    background: white;
+    font-weight: 900;
+    border-radius: 3px;
+    margin-top: 13px;
+    border-color: #3d66d7;
+    border: 0.01em solid #3d66d7;
+    background-color: #fff;
+    color: #3d66d7;
+    cursor: pointer;
+}
+
+.anotherflexbox2 button:hover {
+    background-color: #3d66d7;
+color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.down {
+    width: 100%;
+    height: 572px;
+}
+.numbers {
+    height: 143px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    justify-content: center;
+    width: 34px;
+    text-align: center;
+    margin-right: 8px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #e9ecf2;
+    font-size: 13px;
+}
+.numbers a:hover {
+    background-color: #dddddd;
+}
+.numbers span {
+    margin-left: -5px;
+    width: 34px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecf2;
+    height: 34px;
+    text-align: center;
+}
+
+ #one {
+    background-color: #32353b;
+    color: white;
+    display: block;
+    display: flex;
+    align-items: center;
+    margin-left: -4px;
+    margin-right: 4px;
+    justify-content: center;
+    width: 34px;
+    text-align: center;
+    height: 34px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+.footer {
+    width: 100%;
+    background-color: #18202b;
+    height: 78%;
+}
+.logoend {
+    padding: 34px;
+}
+
+.logoend img {
+    width: 14%;
+}
+
+.footerflexbox {
+    width: 97%;
+    height: 191px;
+    padding-left: 34px;
+    display: flex;
+}
+.footerflexbox div  {
+    height: 100%;
+    width: 197px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxx1{
+    margin-left: 0px;
+}
+
+.footerflexbox div a {
+    text-decoration: none;
+    padding: 14px 12px 2px 0px;
+    font-size: 13px;
+    display: inline;
+    color: #abb2c4;
+}
+
+.footerflexbox div a:hover{
+    text-decoration: underline;
+}
+
+.footerflexbox h6 {
+    color: white;
+    font-size: 18px;
+}
+.aa {
+    margin-top: 20px;
+}
+
+.box1 a {
+    width: 50px;
+}
+
+.box2 a {
+    width: 85px;
+}
+
+.box3 a {
+    width: 47px;
+}
+
+.w77 {
+    margin-top: 20px;
+}
+.w66{
+    width: 82px;
+}
+.w55{
+    width: 151px;
+}
+.w44{
+    width: 106px;
+    margin-top: 20px;
+}
+.top {
+    margin-top: 20px;
+}
+
+.w11 {
+    width: 116px;
+    margin-top: 20px;
+}
+.w22{
+    width: 189px;
+}
+
+.w33{
+    width: 92px;
+}
+
+.footicon {
+    height: 30px;
+    /* display: flex; */
+    margin-left: 34px;
+    align-items: center;
+}
+.fa-brands {
+    font-size: 22px;
+    margin-left: 31px;
+    color: #abb2c4;;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: #ced5e7;
+}
+#fb {
+    margin-left: 0px;
+}
+
+.lasthr {
+    height: 1px;
+    background-color: #abb2c4;
+    border: none;
+    margin-top: 28px;
+    width: 94%;
+    margin-left: 34px;
+}
+
+.lastanchors {
+    height: 88px;
+    padding-left: 34px;
+    display: flex;
+    align-items: center;
+}
+
+#tm {
+    margin-left: 0px;
+}
+
+.lastanchors a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #abb2c4;
+}
+
+.lastanchors a:hover {
+    text-decoration: underline;
+    color: #ced5e7;
+}
+.lastanchors h6 {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #abb2c4;
+}
+
